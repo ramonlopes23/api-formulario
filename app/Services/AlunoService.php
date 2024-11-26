@@ -1,8 +1,9 @@
 <?php
 namespace app\Services;
 use app\DAO\AlunoDAO;
-use app\Models;
+use app\Models\Aluno;
 use app\DAO;
+
 
     class AlunoService{
         private $dao;
