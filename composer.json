@@ -1,0 +1,10 @@
+{
+    "name": "aula13/mvc",
+    "description": "aula sobre api em php",
+    "autoload": {
+        "psr-4": {
+            "Aula13\\Mvc\\": "src/"
+        }
+    },
+    "require": {}
+}
