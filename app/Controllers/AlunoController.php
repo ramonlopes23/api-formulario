@@ -15,9 +15,14 @@ class AlunoController{
         $data = json_encode(file_get_contents("php://input"));
         echo json_encode(["id"=>$this->service->criar($data->nome,$data->genero)]);
     }
+
+
+
+public function hello(){
+    echo 'olá PHP';
 }
 
 
-
+}
 
 ?>
